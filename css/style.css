@@ -15,6 +15,11 @@ html {
     display: table;
     clear: both;
 }
+
+.width-80 {
+    width: 80%;
+    margin: 0 auto;
+}
 /* /General Section */
 
 /* HEADER */
@@ -28,8 +33,7 @@ header {
 }
 
 nav {
-    width: 80%;
-    margin: 1em auto;
+    margin-top: 1em;
     text-align: center;
     height: 60px;
     line-height: 60px;
@@ -133,21 +137,29 @@ a.btn.dark:focus {
     color: #265ee8;
 }
 
+
+a.btn.blue{
+    background-color: #8EA1E1;
+    color: white;
+}
+
+a.btn.blue:hover,
+a.btn.blue:active,
+a.btn.blue:focus {
+    color: #265ee8;
+}
+
 /* /HEADER */
 
 /* MAIN */
 
 .container {
     width: 100%;
+    overflow: hidden;
 }
 
 .container.grey {
     background-color: #F6F6F6;
-}
-
-.content {
-    width: 80%;
-    margin: 0 auto;
 }
 
 section .section-image {
@@ -162,14 +174,42 @@ section .section-content {
     padding: 3em 8em;
 }
 
-.section-content h1 {
+.section-content h1,
+.banner-content h1{
     font-size: 3em;
     margin-bottom: 0.5em;
 }
 
-.section-content P {
+.section-content p,
+.banner-content p {
     font-size: 1.3em;
 }
 
+.banner-content {
+    margin-top: 2em;
+}
+
+section.banner {
+    text-align: center;
+}
+
+section.banner .banner-image {
+    width: 100%;
+}
+
+section.banner .download h1 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+
+section.banner {
+    margin-bottom: 3em;
+}
 
 /* /MAIN */
+
+footer {
+    width: 100%;
+    height: 200px;
+}
