@@ -137,6 +137,14 @@ a.btn.dark:focus {
 
 /* MAIN */
 
+.container {
+    width: 100%;
+}
+
+.container.grey {
+    background-color: #F6F6F6;
+}
+
 .content {
     width: 80%;
     margin: 0 auto;
@@ -162,5 +170,6 @@ section .section-content {
 .section-content P {
     font-size: 1.3em;
 }
+
 
 /* /MAIN */
