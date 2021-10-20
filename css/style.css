@@ -118,6 +118,10 @@ a.btn:hover {
     padding: 0 0.9em;
 }
 
+/* /HEADER */
+
+/* BUTTON */
+
 a.btn.big{
     padding: 7px 23px;
     margin: 0 0.5em;
@@ -149,7 +153,7 @@ a.btn.blue:focus {
     color: #265ee8;
 }
 
-/* /HEADER */
+/* /BUTTON */
 
 /* MAIN */
 
