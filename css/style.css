@@ -23,11 +23,12 @@ header {
     width: 100%;
     /* height: 500px; */
     background-size: cover;
+    overflow: hidden;
 }
 
 nav {
     width: 80%;
-    margin: 0 auto;
+    margin: 1em auto;
     text-align: center;
     height: 60px;
     line-height: 60px;
@@ -58,13 +59,14 @@ nav .float:nth-child(2) {
 
 .nav-menu li {
     display: inline-block;
-    margin-right: 1em;
+    margin-right: 1.7em;
 }
 
 .navbar a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1em;
 }
 .navbar a:hover,
 .navbar a:active,
@@ -93,24 +95,30 @@ a.btn:hover {
 
 /* jumbo */
 .jumbo-text {
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
     text-align: center;
-    padding: 10em 0;
+    padding: 6em 0;
     color: white;
 }
 
 .jumbo-title {
-    margin-bottom: 1.1em;
+    margin-bottom: 0.6em;
+    font-size: 3.5em;
 }
 
 .jumbo-desc {
-    line-height: 1.7em;
+    font-size: 1.2em;  
+    line-height: 1.6em;
     margin-bottom: 1.1em;
+    padding: 0 0.9em;
 }
 
 a.btn.big{
     padding: 7px 23px;
+    margin: 0 0.5em;
+    font-size: 1.2em;
+    font-weight: normal;
 }
 
 a.btn.dark{
