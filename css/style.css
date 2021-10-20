@@ -312,3 +312,9 @@ section.wave-rotate {
     background-image: url(../img/wave.svg);
     transform: rotate(180deg);
 }
+
+/* BUTTON_HOVER */
+
+.btn:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
