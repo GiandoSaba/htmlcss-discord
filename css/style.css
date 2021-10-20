@@ -73,21 +73,6 @@ nav .float:nth-child(2) {
     font-size: 1em;
 }
 
-.navbar a:hover,
-.navbar a:active,
-.navbar a:focus,
-.list a:hover,
-.list a:active,
-.list a:focus {
-    text-decoration: underline;
-}
-
-
-
-.nav-menu li:last-child {
-    margin-right: 0;
-}
-
 a.btn {
     display: inline-block;
     background-color: white;
@@ -102,6 +87,22 @@ a.btn {
 a.btn:hover {
     color: #265ee8;
 }
+
+.nav-menu a:hover,
+.nav-menu a:active,
+.nav-menu a:focus,
+.list a:hover,
+.list a:active,
+.list a:focus {
+    text-decoration: underline;
+}
+
+
+
+.nav-menu li:last-child {
+    margin-right: 0;
+}
+
 
 /* jumbo */
 .jumbo-text {
@@ -285,6 +286,12 @@ section.banner {
     text-decoration: none;
 }
 
+.end {
+    margin-bottom: 2em;
+}
 
+.float_right {
+    float: right;
+}
 
 /* /FOOTER */
